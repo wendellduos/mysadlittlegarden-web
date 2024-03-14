@@ -102,14 +102,8 @@ header .wrp {
   height: 100%;
 }
 
-#title-wrp h1 {
-  font-family: "cocogoose";
-  font-size: 1.2rem;
-  color: var(--pink);
-  background: -webkit-linear-gradient(12deg, var(--pink), var(--pink-two));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+#logo {
+  width: 2rem;
 }
 
 nav ul {
@@ -136,26 +130,27 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   width: 100%;
   height: calc(100% - 4rem);
+}
+
+main .wrp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #profile {
   width: 7rem;
   margin-bottom: 1rem;
   border-radius: 50%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   transform: rotate(-8deg);
 }
 
 #name {
+  width: 70%;
+  min-width: 270px;
   margin-bottom: 2rem;
-  color: var(--gray-three);
-  letter-spacing: 1.3px;
-  line-height: 9px;
-  font-size: 0.8rem;
-  text-transform: uppercase;
 }
 
 #social-wrp {
